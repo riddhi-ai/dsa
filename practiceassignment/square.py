@@ -3,6 +3,6 @@
 S=int(input("Enter the value of S : "))
 N=int(input("Enter the value of N :"))
 
-for i in range(S, S + N):
-    print(f"Square of {i} is {i*i}")
+for i in range(S, S + N):   
+    print(f"Square of {i} is {i*i}")  #using fstring
 
